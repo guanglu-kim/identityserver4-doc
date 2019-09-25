@@ -6,29 +6,29 @@
 
 IdentityServer4 是一套为 ASP.NET Core 实现 OpenID Connect 和 OAuth 2.0 的框架.
 
-It enables the following features in your applications:
+可为您的应用提供以下特性:
 
 
-| **Authentication as a Service** 
-| Centralized login logic and workflow for all of your applications (web, native, mobile, services). IdentityServer is an officially `certified <https://openid.net/certification/>`_ implementation of OpenID Connect.
+| **身份验证（Authentication） 服务** 
+| 为您所有的应用(web, native, mobile, services) 集中管理登陆逻辑及流程. IdentityServer 是一套`官方认可 <https://openid.net/certification/>`的 OpenID Connect 实现.
 
-| **Single Sign-on / Sign-out** 
-| Single sign-on (and out) over multiple application types.
+| **单点登陆** 
+| 为多个应用实现单点登陆.
 
-| **Access Control for APIs** 
-| Issue access tokens for APIs for various types of clients, e.g. server to server, web applications, SPAs and native/mobile apps.
+| **API 访问控制** 
+| 为多类终端提供访问令牌, e.g. server to server, web applications, SPAs and native/mobile apps.
 
-| **Federation Gateway**
-| Support for external identity providers like Azure Active Directory, Google, Facebook etc. This shields your applications from the details of how to connect to these external providers.
+| **联合网关**
+| 支持外部身份认证，例如 Azure Active Directory, Google, Facebook 等. 您无须了解这些身份认证服务细节.
 
-| **Focus on Customization**
-| The most important part - many aspects of IdentityServer can be customized to fit **your** needs. Since IdentityServer is a framework and not a boxed product or a SaaS, you can write code to adapt the system the way it makes sense for your scenarios.
+| **专注定制化**
+| IdentityServer 是一套框架而不是一个打包好的产品或者Sas化的服务，因此您可以根据自己的需求，自行编码来适应您的应用场景.
 
 | **Mature Open Source**
-| IdentityServer uses the permissive `Apache 2 <https://www.apache.org/licenses/LICENSE-2.0>`_ license that allows building commercial products on top of it. It is also part of the `.NET Foundation <https://dotnetfoundation.org/>`_ which provides governance and legal backing.
+| IdentityServer 使用 `Apache 2 <https://www.apache.org/licenses/LICENSE-2.0>` 许可，允许您基于IdentityServer开发任何商业产品. 同时它也是 `.NET Foundation <https://dotnetfoundation.org/>` 的一部分，为您提供长久支持.
 
-| **Free and Commercial Support**
-| If you need help building or running your identity platform, :ref:`let us know <refSupport>`. There are several ways we can help you out.
+| **免费和商业支持**
+| 如果您在搭建身份认证平台时遇到困难, :ref:`let us know <refSupport>`. 我们有多种方式为您提供帮助.
 
 .. toctree::
    :maxdepth: 3
