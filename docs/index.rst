@@ -1,10 +1,10 @@
-Welcome to IdentityServer4 (ASP.NET Core 3.x)
+欢迎使用 IdentityServer4 (ASP.NET Core 3.x)
 =============================================
 
 .. image:: images/logo.png
    :align: center
 
-IdentityServer4 is an OpenID Connect and OAuth 2.0 framework for ASP.NET Core.
+IdentityServer4 是一套为 ASP.NET Core 实现 OpenID Connect 和 OAuth 2.0 的框架.
 
 It enables the following features in your applications:
 
